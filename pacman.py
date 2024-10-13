@@ -65,8 +65,3 @@ class Pacman:
             and self.__mapa == pacman2.obtenerMapa()
             and self.__vidas == pacman2.obtenerVidas()
         )
-
-mapa = Mapa()
-pacman = Pacman(mapa)
-posicionDestino = Posicion(1,5)
-pacman.mover(posicionDestino)
